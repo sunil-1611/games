@@ -5,7 +5,7 @@ export default () => (
     <p className="copyright">
       Powered By:{" "}
       <a href="https://www.razatverma.com/" target="_blank">
-        Razat Verma
+        Sunil Verma
       </a>
     </p>
   </footer>
