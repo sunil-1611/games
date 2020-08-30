@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c2eacb91.chunk.css",
+    "main.js": "/static/js/main.f6bb20b4.chunk.js",
+    "main.js.map": "/static/js/main.f6bb20b4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3fc2ecd1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3fc2ecd1.js.map",
+    "static/js/2.bc41746e.chunk.js": "/static/js/2.bc41746e.chunk.js",
+    "static/js/2.bc41746e.chunk.js.map": "/static/js/2.bc41746e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.df3f4fa6d706a7697920148bc1882af3.js": "/precache-manifest.df3f4fa6d706a7697920148bc1882af3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c2eacb91.chunk.css.map": "/static/css/main.c2eacb91.chunk.css.map",
+    "static/js/2.bc41746e.chunk.js.LICENSE.txt": "/static/js/2.bc41746e.chunk.js.LICENSE.txt",
+    "static/media/CompAhead.png": "/static/media/CompAhead.3a477c8f.png",
+    "static/media/CompKeep.png": "/static/media/CompKeep.d042630f.png",
+    "static/media/GapMedian.png": "/static/media/GapMedian.8f66fecd.png",
+    "static/media/GiveWay.png": "/static/media/GiveWay.f65e2cf8.png",
+    "static/media/GoingStraight.png": "/static/media/GoingStraight.a1bfe712.png",
+    "static/media/NoEntry.png": "/static/media/NoEntry.53e38a5f.png",
+    "static/media/NoParking.png": "/static/media/NoParking.e164a445.png",
+    "static/media/NoStopping.png": "/static/media/NoStopping.01b0622b.png",
+    "static/media/ParkingBoth.png": "/static/media/ParkingBoth.7cf5eeda.png",
+    "static/media/RoadWidens.png": "/static/media/RoadWidens.8dfafd4d.png",
+    "static/media/RoadWidth.png": "/static/media/RoadWidth.99c5b4b9.png",
+    "static/media/RoundAbout.png": "/static/media/RoundAbout.88a7ca5d.png",
+    "static/media/SlipparyRoad.png": "/static/media/SlipparyRoad.d9b28b6f.png",
+    "static/media/Stop.png": "/static/media/Stop.37e041ec.png",
+    "static/media/VehiclesProh.png": "/static/media/VehiclesProh.26dfaf53.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fc2ecd1.js",
+    "static/js/2.bc41746e.chunk.js",
+    "static/css/main.c2eacb91.chunk.css",
+    "static/js/main.f6bb20b4.chunk.js"
+  ]
+}
