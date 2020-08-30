@@ -1,0 +1,14 @@
+#fortune-wheel {
+  g.slice text {
+    stroke: #fff;
+    letter-spacing: 0.2em;
+    font-size: 16px;
+  }
+  .centerspin {
+    fill: #d94b7f;
+    pointer-events: none;
+  }
+}
+#awardresult {
+  text-align: center;
+}

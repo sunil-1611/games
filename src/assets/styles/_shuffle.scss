@@ -1,0 +1,135 @@
+.shuffle {
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2em;
+  }
+
+  .polaroid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .polaroid-container {
+    position: relative;
+    width: 300px;
+    height: 352px;
+  }
+
+  .polaroid-item {
+    display: none;
+    position: absolute;
+    width: 300px;
+    padding: 1em 1em 4em 1em;
+    background-color: white;
+    border: 1px solid rgba(black, 0.5);
+    box-shadow: 0.25em 0.25em 0.5em rgba(0, 0, 0, 0.25);
+    transition: top 0.5s ease, left 0.5s ease, transform 0.5s ease;
+    -webkit-backface-visibility: hidden;
+
+    @media (max-width: 640px) {
+      display: block;
+      top: 0;
+      left: 0;
+      box-shadow: none;
+    }
+
+    &__image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid rgba(black, 0.5);
+      overflow: hidden;
+
+      svg {
+        width: calc(300px - 2em);
+        height: calc(300px - 2em);
+        fill: red;
+      }
+    }
+
+    &__copy {
+      text-align: center;
+
+      p {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%) perspective(1px) scale(1.1);
+        width: calc(100% - 2em);
+        height: 4.25em;
+        font-family: "Shadows Into Light Two", cursive;
+        font-size: 0.8em;
+        font-weight: bold;
+        line-height: 1.3;
+        letter-spacing: 0.0625em;
+        color: red;
+        text-decoration: none;
+        margin: 0;
+      }
+    }
+  }
+
+  .top-image {
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 50;
+
+    @media (max-width: 640px) {
+      box-shadow: 0.25em 0.25em 0.5em rgba(0, 0, 0, 0.25);
+    }
+  }
+
+  #red {
+    svg {
+      fill: darkred;
+    }
+  }
+
+  #blue {
+    svg {
+      fill: darkblue;
+    }
+  }
+
+  #green {
+    svg {
+      fill: seagreen;
+    }
+  }
+
+  #gray {
+    svg {
+      fill: gray;
+    }
+  }
+
+  #purple {
+    svg {
+      fill: purple;
+    }
+  }
+
+  #yellow {
+    svg {
+      fill: lightgoldenrodyellow;
+    }
+  }
+
+  #orange {
+    svg {
+      fill: orange;
+    }
+  }
+
+  .select-container {
+    position: relative;
+
+    @media (max-width: 640px) {
+      margin-top: 2em;
+    }
+  }
+}
